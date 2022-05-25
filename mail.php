@@ -10,7 +10,7 @@ $subject = "Mail From Brix Website";
 $txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Message =" . $message."\r\n
 Mobile number =". $number;
 
-$headers = "From: noreply@pranavb.com" . "\r\n" .
+$headers = "From: noreply@codeconia.com" . "\r\n" .
 "CC: somebodyelse@example.com";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
